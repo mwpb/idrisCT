@@ -15,7 +15,6 @@ Right_intro: (f:HOM y z) -> (g,h:HOM x y) -> (g=h) -> (g*f=h*f)
 Right_intro f g h Hgh = rewrite Hgh in Refl
 
 -- Results involving specific variables and assertions.
-
 X: Type
 Y: Type
 Z: Type
