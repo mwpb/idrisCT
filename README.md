@@ -27,7 +27,7 @@ import Categories
 
 shortly after declaring your module. (The file `Test/testTest.idr` is a very simple example.)
 
-### Usage example
+### Usage examples
 
 Some initial examples:
 
