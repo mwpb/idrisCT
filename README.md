@@ -31,7 +31,7 @@ shortly after declaring your module. (The file `Test/testTest.idr` is a very sim
 
 Some initial examples:
 
-* (basic composition)[./Test/testTest.idr]
+* [basic composition](./Test/testTest.idr)
 * ...
 
 ## Running the tests
