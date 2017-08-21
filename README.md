@@ -27,6 +27,13 @@ import Categories
 
 shortly after declaring your module. (The file `Test/testTest.idr` is a very simple example.)
 
+### Usage example
+
+Some initial examples:
+
+* (basic composition)[./Test/testTest.idr]
+* ...
+
 ## Running the tests
 
 At the moment just compile the files in the `Test` directory.
