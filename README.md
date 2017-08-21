@@ -6,8 +6,8 @@ A collection of type definitions for formal proofs in category theory. Everythin
 
 ### Prerequisites
 
-A working installation of Idris. Instruction can be found at the
-[official Idris website](https://github.com/idris-lang/Idris-dev/wiki/Installation-Instructions).
+A working installation of Idris. Instructions can be found in the
+[Idris documentation](https://github.com/idris-lang/Idris-dev/wiki/Installation-Instructions).
 
 ### Installing
 
@@ -19,7 +19,7 @@ idris --install idrisCT.ipkg
 
 from the root directory of the repo.
 
-Otherwise simply copy the file `definitions.idr` into the root of your project.
+Otherwise simply copy the file `Categories.idr` into the root of your project.
 
 In either case include using
 
