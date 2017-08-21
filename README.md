@@ -4,6 +4,13 @@ A collection of type definitions for formal proofs in category theory. Everythin
 
 ## Getting Started
 
+### Prerequisites
+
+A working installation of Idris. Instruction can be found at the
+[official Idris website](https://github.com/idris-lang/Idris-dev/wiki/Installation-Instructions).
+
+### Installing
+
 For global installation use:
 
 ```
@@ -20,4 +27,4 @@ In either case include using
 import Categories
 ```
 
-immediately after declaring your module.
+immediately after declaring your module. (The file `tests.idr` is a very simple example.)
