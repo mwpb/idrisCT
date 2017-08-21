@@ -1,6 +1,6 @@
 module tests
 
-import definitions
+import Categories
 
 -- testing basic composition
 

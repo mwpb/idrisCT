@@ -1,5 +1,5 @@
 package idrisCT
 
-modules = definitions
+modules = Categories
 
 readme = README.md

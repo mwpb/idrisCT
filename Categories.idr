@@ -1,4 +1,4 @@
-module definitions
+module Categories
 
 %access public
 

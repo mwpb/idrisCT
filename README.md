@@ -10,4 +10,12 @@ For global installation use:
 idris --install idrisCT.ipkg
 ```
 
-Otherwise simply use copy the definitions into your project.
+from the root directory of the repo.
+
+Otherwise simply use copy the file `definitions.idr` into your project.
+
+In either case include using
+
+```
+module CategoryTheoryDefinitions
+```
