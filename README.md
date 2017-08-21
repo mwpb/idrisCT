@@ -27,10 +27,10 @@ import Categories
 
 shortly after declaring your module. (The file `Test/testTest.idr` is a very simple example.)
 
-### Running the tests
+## Running the tests
 
 At the moment just compile the files in the `Test` directory.
 
-### Built with
+## Built with
 
 * The [Idris Language](https://www.idris-lang.org).
