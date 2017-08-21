@@ -17,14 +17,20 @@ For global installation use:
 idris --install idrisCT.ipkg
 ```
 
-from the root directory of the repo.
+from the root directory of the repo. For local installation simply copy the file `Categories.idr` into the root of your project.
 
-Otherwise simply copy the file `Categories.idr` into the root of your project.
-
-In either case include using
+In either case include in your `.idr` file using
 
 ```
 import Categories
 ```
 
-immediately after declaring your module. (The file `tests.idr` is a very simple example.)
+shortly after declaring your module. (The file `Test/testTest.idr` is a very simple example.)
+
+### Running the tests
+
+At the moment just compile the files in the `Test` directory.
+
+### Built with
+
+* The [Idris Language](https://www.idris-lang.org).
