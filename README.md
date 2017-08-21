@@ -17,7 +17,7 @@ For global installation use:
 idris --install idrisCT.ipkg
 ```
 
-from the root directory of the repo. For local installation simply copy the file `Categories.idr` into the root of your project.
+from the root directory of the repo. For local installation simply copy the file `Categories.idr` into the root of your project (and add it to `yourProject.ipkg` if using the Atom editor for instance).
 
 In either case include in your `.idr` file using
 
