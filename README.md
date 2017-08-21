@@ -12,10 +12,12 @@ idris --install idrisCT.ipkg
 
 from the root directory of the repo.
 
-Otherwise simply use copy the file `definitions.idr` into your project.
+Otherwise simply copy the file `definitions.idr` into the root of your project.
 
 In either case include using
 
 ```
-module CategoryTheoryDefinitions
+import Categories
 ```
+
+immediately after declaring your module.
