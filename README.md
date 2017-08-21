@@ -7,7 +7,7 @@ A collection of type definitions for formal proofs in category theory. Everythin
 For global installation use:
 
 ```
-idris --install test.ipkg
+idris --install idrisCT.ipkg
 ```
 
 Otherwise simply use copy the definitions into your project.
