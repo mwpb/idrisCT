@@ -1,4 +1,6 @@
-module CT
+module definitions
+
+%access public
 
 data Category: Type
 data Func: Category -> Category -> Type
@@ -15,7 +17,7 @@ data Hom: {C:Category} -> Object C -> Object C -> Type where
   (||>):
     {C, D:Category} -> {x, y:Object C} -> Hom x y -> (F:Func C D) ->
     Hom (x|>F) (y|>F)
-  (||): -- can we use an implicit x here?
+  (||): -- can we use an implicit x here? why can't we use . as an infix?
     {C,D:Category} -> {F,G:Func C D} -> (n:NatTrans F G) ->
     (x:Object C) -> Hom (x|>F) (x|>G)
 
