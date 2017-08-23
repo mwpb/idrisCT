@@ -2,8 +2,8 @@ module Categories
 
 %access public export
 
-infixr 10 |> -- make infixes bind differently
 mutual
+  infixr 7 |>
   data Object: a -> Type where
     (|>): {C, D:a} -> Object C -> Hom C D -> Object D
 
