@@ -3,9 +3,7 @@ module tests
 import Categories
 
 -- testing basic composition
-
-C:Category
-
+C:Type
 X:Object C
 Y:Object C
 Z:Object C
