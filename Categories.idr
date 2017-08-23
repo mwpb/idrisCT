@@ -5,15 +5,18 @@ module Categories
 mutual
   infixr 7 |>
   data Object: a -> Type where
+    -- Functor application on objects.
     (|>): {C, D:a} -> Object C -> Hom C D -> Object D
 
   infixr 10 ||>
   data Hom: a -> a -> Type where
     E: {C:a} -> (x: Object C) -> Hom x x
     (*): Hom x y -> Hom y z -> Hom x z
+    -- Functor application on arrows.
     (||>):
       {C, D:a} -> {x, y:Object C} -> Hom x y -> (F:Hom C D) ->
       Hom (x|>F) (y|>F)
+    -- Component of natural transformation at an object.
     (||): -- can we use an implicit x here? why can't we use . as an infix?
       {C,D:a} -> {F,G:Hom C D} -> (n:Hom F G) ->
       (x:Object C) -> Hom (x|>F) (x|>G)
