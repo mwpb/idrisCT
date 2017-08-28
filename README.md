@@ -1,6 +1,6 @@
 # IdrisCT
 
-A collection of type definitions for formal proofs in category theory. Everything is a type; nothing is a record type.
+A collection of type definitions for formal proofs in category theory.
 
 ## Getting Started
 
