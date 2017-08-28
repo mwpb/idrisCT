@@ -25,13 +25,13 @@ In either case include in your `.idr` file using
 import Categories
 ```
 
-shortly after declaring your module. (The file [`Test/testTest.idr`](./Test/testTest.idr) is a very simple example.)
+shortly after declaring your module. (The file [`Test/testTest.idr`](./Test/TestCategories.idr) is a very simple example.)
 
 ### Usage examples
 
 Some initial examples:
 
-* [basic composition](./Test/testTest.idr)
+* [basic composition](./Test/TestCategories.idr)
 * ...
 
 ## Running the tests
