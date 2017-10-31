@@ -7,8 +7,15 @@ A:Type
 B:Type
 C:Type
 D:Type
+E:Type
 
-w:Hom B D
-v:Hom C D
+W:Hom B D
+V:Hom C D
 
-P: PB w v
+F:Hom A C
+G:Hom A B
+
+H: fw = gv
+
+Y:Hom A (PB w v)
+Y = IntoPB F G H
