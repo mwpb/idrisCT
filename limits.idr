@@ -9,7 +9,7 @@ data PB:
 
 data IntoPB:
   {A, B, C, D: Type} -> {w:Hom B D} -> {v:Hom C D} ->
-  (f:Hom A B) -> (g:Hom A C) -> (bw=cv) ->
+  (f:Hom A B) -> (g:Hom A C) -> (b*w=c*v) ->
   Hom A (PB w v)
 
 data TerminalObject:
