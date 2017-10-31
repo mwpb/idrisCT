@@ -10,4 +10,3 @@ T: Hom X X
 P: Hom T (E X)
 
 T2: Hom X X
-T2 = T

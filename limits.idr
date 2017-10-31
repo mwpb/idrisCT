@@ -2,6 +2,16 @@ module Limits
 
 import Categories
 
+data PB:
+  {B, C, D:Type} ->
+  (w:Hom C D) -> (v:Hom B D) ->
+  Type
+
+data IntoPB:
+  {A, B, C, D: Type} -> {w:Hom B D} -> {v:Hom C D} ->
+  (f:Hom A B) -> (g:Hom A C) -> (bw=cv) ->
+  Hom A (PB w v)
+
 data TerminalObject:
   a ->
   Object a
@@ -17,6 +27,10 @@ data TerminalUnique:
 data Limit:
   {J, C:a} ->
   (D:Hom J C) ->
+  Type
+data LimitObject: -- shouldn't be data declarations...
+  {J, C:a} -> {D:Hom J C} ->
+  (Limit D) ->
   Hom (TerminalObject a) C
 data Factorisation:
   {J, C:a} -> {D:Hom J C} ->

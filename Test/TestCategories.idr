@@ -14,7 +14,6 @@ H:Hom X W
 H = F*G
 
 -- testing identities
-
 LeftE: (f:Hom X Y) -> (f = (E X)*f)
 LeftE f = LeftId f
 
